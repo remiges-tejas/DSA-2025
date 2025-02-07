@@ -67,7 +67,6 @@ public interface Animal {
     // Default Methods
 
     public default void run() {
-
         this.eat();
         System.out.println("Running");
     }
